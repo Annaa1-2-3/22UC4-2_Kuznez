@@ -1,0 +1,24 @@
+.button {
+  padding: 10px 20px;
+  border: 1px solid #a3c97d;
+  background-color: transparent;
+  color: #2e5b1c;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 4px;
+}
+
+.button:hover {
+  background-color: #e9f5d5;
+}
+
+.button--orange {
+  background-color: #ff5e00;
+  color: white;
+  border-color: #ff5e00;
+}
+
+.button--orange:hover {
+  background-color: #e65200;
+}
