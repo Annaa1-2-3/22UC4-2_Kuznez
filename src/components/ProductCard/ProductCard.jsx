@@ -3,7 +3,7 @@ import styles from './ProductCard.module.css';
 import Button from '../Button/Button';
 
 function ProductCard({ product }) {
-  const { name, img, price, oldPrice, rating, inStock, isPromo } = product;
+  const { name, img, price, oldPrice, rating, isPromo } = product;
 
   return (
     <div className={styles.card}>

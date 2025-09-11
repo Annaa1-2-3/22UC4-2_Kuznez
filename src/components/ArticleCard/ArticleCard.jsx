@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './ArticleCard.module.css';
 
 function ArticleCard({ article }) {
-  const { image, date, title, excerpt, id } = article;
+  const { image, date, title, excerpt } = article;
 
   return (
     <div className={styles.card}>

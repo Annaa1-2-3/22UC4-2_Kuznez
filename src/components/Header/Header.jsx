@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Header.module.css';
-import logo from '../../assets/logo.svg';
+import logo from '../../assets/logo.png';
+import user from '../../assets/user.png';
 
 function Header() {
   return (
@@ -8,7 +9,6 @@ function Header() {
       <div className={styles.container}>
         <div className={styles.logo}>
           <img src={logo} alt="Логотип" />
-          <span>СЕВЕРЯНОЧКА</span>
         </div>
 
         <nav className={styles.nav}>
@@ -21,7 +21,7 @@ function Header() {
           <button className={styles.icon}>📦 Заказы</button>
           <button className={styles.icon}>🛒 Корзина</button>
           <div className={styles.user}>
-            <img src="https://via.placeholder.com/30" alt="User" />
+            <img src={user} alt="User" />
             <span>Алексей</span>
           </div>
         </div>

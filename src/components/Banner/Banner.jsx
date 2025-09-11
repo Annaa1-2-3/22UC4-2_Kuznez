@@ -1,11 +1,10 @@
 import React from 'react';
 import styles from './Banner.module.css';
+import banner from '../../assets/banner.png';
 
 function Banner() {
   return (
-    <div className={styles.banner}>
-      <img src="https://via.placeholder.com/1440x200?text=Доставка+бесплатно+от+1000+₽" alt="Баннер" />
-    </div>
+    <div className={styles.banner} img src={banner} alt="Баннер" />
   );
 }
 
