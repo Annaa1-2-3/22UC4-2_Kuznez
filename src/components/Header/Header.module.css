@@ -26,8 +26,8 @@
 }
 
 .logo img {
-  width: 40px;
-  height: 40px;
+  width: 152px;
+  height: 32px;
 }
 
 .nav {
@@ -73,4 +73,92 @@
   gap: 8px;
   font-size: 14px;
   color: #555;
+}
+
+.userlogo {
+  width: 40px;
+  height: 40px;
+}
+
+.icon svg {
+  margin-right: 8px;
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+.searchWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.searchIcon {
+  position: absolute;
+  left: 10px;
+  color: #999;
+  pointer-events: none;
+}
+
+.search {
+  padding: 8px 12px 8px 40px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 250px;
+}
+
+.dropdownIcon {
+  margin-left: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.icon:hover svg {
+  color: #2e5b1c;
+}
+
+/* Для кнопки-стрелки */
+.dropdownToggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #555;
+  padding: 0 5px;
+}
+
+.dropdownToggle:hover {
+  color: #2e5b1c;
+}
+
+/* Выпадающее меню */
+.dropdownMenu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  z-index: 1000;
+  min-width: 150px;
+  margin-top: 10px;
+}
+
+.dropdownItem {
+  width: 100%;
+  text-align: left;
+  padding: 12px 20px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 14px;
+  color: #333;
+  transition: background-color 0.2s;
+}
+
+.dropdownItem:hover {
+  background-color: #f8f6f0;
+}
+
+.dropdownItem:last-child {
+  border-top: 1px solid #eee;
 }
